@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext>
+<article-->
+<worksheet margin="1in" bottom="1.25cm">
+    <title>Math 221 Tangent Line Worksheet</title>
+
+    <objectives>
+    <ul>
+        <li>
+            <p>
+                Show how to include an image using Prefigure code. 
+            </p>
+        </li>
+        <li>
+            <p>
+                Show displayed and alligned math as well as some minor math typesetting issues that come from xml syntax (see the code for details).
+            </p>
+        </li>
+    </ul>
+
+    </objectives>
+
+    <introduction>
+        <p>
+            In this activity students are asked to decide when to switch the tangent line approximation they use to approximate square roots.
+        </p>
+    </introduction>
+    <!--The <paragraphs> block is a nice thing to use when you want an un-numbered section-->
+    <paragraphs><title>Set-up</title>
+        <p>
+            Recall from class that we can approximate square roots of numbers that aren't perfect squares using the tangent line approximation near some number <m>a</m>
+            <me>
+                L_{a}(x) = f(a) + f'(a)(x-a)
+            </me>
+            where <m>f(x) = \sqrt{x}</m>.
+        </p> 
+        <p>   
+            For instance, to approximate <m>\sqrt{5}</m> we decided to use the tangent line approximation at the nearest perfect square, which is given by
+            <md>
+                <mrow>L_{4}(x) \amp = \sqrt{4} + \frac{1}{2\sqrt{4}}(x-4)</mrow>
+                <mrow> \amp = 2 + \frac{1}{4}(x-4)</mrow>
+                <mrow> \amp = 1 + \frac{1}{4}x.</mrow>
+            </md>
+            <!-- \amp instead of &-->
+            Thus, we can estimate <m>\sqrt{5} = f(5) \approx L_4(5) = 2.25</m>. 
+        </p>
+        <p>
+            Now, what if there isn't a "nearest" perfect square? For instance, which tangent line should we use to approximate <m>\sqrt{6.5}</m> (<m>6.5</m> is exactly halfway between <m>4</m> and <m>9</m>)? The following exercise will help us figure out the answer.
+        </p>
+        
+
+
+
+    </paragraphs>
+    
+<exercise>
+
+    <introduction>
+        <p>
+            The graph of <m>f(x) = \sqrt{x}</m>, along with its tangent lines at <m>x= 4</m> and <m>x=9</m>, is given by <xref ref="sqrt-tangents"/>.
+        </p>
+<figure xml:id="sqrt-tangents">
+    <caption>The graph of <m>f(x) = \sqrt{x}</m> and its tangent line approximations at <m>x=4</m> and <m>x=9</m>.
+    </caption>
+
+<image>
+
+<prefigure label = "sqrts" xmlns="https://prefigure.org">
+<diagram dimensions="(400,400)" margins="(200,10,200,10)">
+<!--Use margins to control size of prefigure image. The numbers are left-bottom-right-top -->
+  <definition>a=4</definition>
+  <definition>b=9</definition>
+  <definition>f(x) = x^(0.5)</definition>
+  <coordinates bbox="[0,0,10,4]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph at="function" function='f' />
+    <group at="tangent1">
+      <tangent-line  function="f" point="a"
+		    infinite="yes"/>
+      <point  p="(a, f(a))" stroke="red">
+      </point>
+        <label anchor="(4,1.75)">
+        <m>(4,2)</m>
+        </label>
+        <label anchor="(7,2.25)">
+        <m>f(x) = \sqrt{x}</m>
+        </label>
+    </group>
+    <group at="tangent2" >
+      <tangent-line function="f" point="b"
+		    infinite="yes" stroke="green"/>
+      <point  p="(b, f(b))" stroke="green" fill="green" >
+      </point>
+      <label anchor="(9,2.75)">
+        <m>(9,3)</m>
+      </label>
+    </group>
+  </coordinates>
+  <annotations>
+    <annotation ref="figure" text="The graph of the square root of x and its tangents at x=4 and x=9.">
+    <annotation ref="function" text="The graph of the square root of x." sonnify="yes" speech="The graph of the square root of x."/>
+    <annotation ref="tangent1" text="The tangent line to the square root at x=4." sonnify="yes" speech="The tangent line to the square root at x=4."/>
+    <annotation ref="tangent2" text="The tangent line to the square root at x=9." sonnify="yes" speech="The tangent line to the square root at x=9."/>
+    </annotation>    
+  </annotations>
+</diagram>
+</prefigure>
+</image>   
+</figure>
+</introduction>
+<task workspace="1in">
+    <statement>
+        <p>
+             Use <xref ref="sqrt-tangents"/> to give intervals of <m>x</m>-values on which <m>L_4(x)</m> and <m>L_9(x)</m> give more accurate estimates of <m>\sqrt{x}</m>. That is, find some <m>x</m>-value, <m>s</m>, such that
+            <me>
+                |\sqrt{x}-L_4(x)| &lt; |\sqrt{x}-L_9(x)|
+            </me>
+            whenever <m>x &lt; s</m> and
+            <me>
+                |\sqrt{x}-L_9(x)| &lt; |\sqrt{x}-L_4(x)|
+            </me>
+            whenever <m>x &gt; s</m>.
+        </p>
+    </statement>
+</task>
+<task workspace="3in">
+    <statement>
+        <p>
+           Use algebra to justify your answer above. 
+        </p>
+    </statement>
+</task>        
+
+
+</exercise>  
+
+
+ <subsection xml:id="prefigure-math-remarks">
+            <title>Interactive Remarks</title>
+
+        <remark>
+            <statement>
+                <p>
+                    Note the issues in the code where Latex syntax conflicted with xml. There are a few instances when these happen.
+                </p>
+            </statement>
+        </remark>
+        <remark>
+            <statement>
+                <p>
+                    Prefigure is really more intuitive to use than Tikz and generates more accessible images. Full documentation is available at <url href="https://davidaustinm.github.io/prefigure/" visual="Prefigure Documentation" /> and a very convenient tool for testing your figures is available at <url href="https://davidaustinm.github.io/prefigure/" visual="Prefigure Playground" />.
+                </p>
+            </statement>
+        </remark>
+                        
+        </subsection>
+
+</worksheet>
+<!--/article>
+</pretext-->

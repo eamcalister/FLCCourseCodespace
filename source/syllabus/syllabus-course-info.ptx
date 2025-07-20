@@ -1,0 +1,116 @@
+  <section xml:id="course-info">
+    <!--Fill with appropriate course information-->
+    <title>Course Information</title>
+    <p> 
+      <dl>
+        <li><title>Course Title</title>
+          <p>
+            Course Title
+          </p>
+        </li>
+        <li><title>Course Number</title>
+          <p>
+            MATH XXX
+          </p>
+        </li>
+        <li><title>Credits</title>
+          <p>
+            n
+          </p>
+        </li>
+        <li><title>Times and Rooms</title>
+        <!--e.g.-->
+        <ul>
+        <li>  
+          <em>Section 1 Time and Room(s):</em> 8:00-8:55am, MWF Noble 110, Th Noble 160
+        </li>
+        <li>
+            <em>Section 2 Time and Room(s):</em> 10:10-11:05am, MWF Noble 110, Th Berndt 340
+        </li>
+        <li>
+            <em>Section 3 Time and Room(s):</em> 11:25am-12:20pm, MWF Noble 110, Th Berndt 340
+        </li>
+        <li>
+            <em>Section 4 Time and Room(s):</em> 2:30-3:25pm, MWF Noble 110, Th Berndt 340
+        </li>
+      </ul>
+    </li>
+        <li><title>Instructors</title>
+          <ul>
+            <li>
+              <p>
+                <em>Section 1 - </em> Eddie Math (<url href="mailto:math_e@fortlewis.edu">math_e@fortlewis.edu</url>)
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>Section 2 - </em> Emilia Numbers (<url href="mailto:enumbers@fortlewis.edu">enumbers@fortlewis.edu</url>)
+              </p>
+            </li>
+          </ul>        
+        </li>
+      </dl>
+    </p>
+
+  <paragraphs xml:id="description">
+    <title>Course Description</title>
+    <p>
+      Enter the catalog description of the course here.
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="instructional-format">
+    <title>Instructional Format</title>
+    <p>This is a face-to-face course, which means we will meet in person.</p>
+  </paragraphs>
+
+  <paragraphs xml:id="course-materials">
+    <title>Course Materials</title>
+    <p>
+      Required Text: Enter the required textbook here.
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="office-hours">
+    <title>Student Office Hours</title>
+    <p>
+    <ul>
+      <li>
+        <p>
+          <em>Eddie Math's Office Hours:</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Emilia Numbers' Office Hours:</em>
+        </p>
+      </li>
+    </ul>
+  </p>
+  </paragraphs>
+
+  <paragraphs xml:id="feedback">
+    <title>Feedback and Communication</title>
+    <p>
+      Communication of all course information will occur via Canvas as well as in class. Most assignments will be submitted and graded online in Canvas or Webwork.
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="missing-class">
+    <!--Course policies are made by intructional teams; these are examples.-->
+    <title>Missing Class</title>
+    <p>
+      If you need to miss class, that is ok. If you miss class, be sure to check Canvas and Webwork for assignments, and try to get notes from a classmate. If you're still having difficulty with the material, use office hours or the Peer Education Center to get caught up. If you need an extension on an assignment, just ask your professor and it will likely be granted.
+    </p>
+    <p>
+      If you need to miss class for an extended period of time, let your professor know so that we may work out a remote accommodation.
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="tech">
+    <title>Technology and Software Requirements</title>
+    <p>
+      You will need to be able to access Canvas and Webwork (online homework system) as submit assignments online. Internet access and a scanning device are required. Calculators will not be used on exams, but will frequently be useful for homework and in class.
+    </p>
+  </paragraphs>
+</section>

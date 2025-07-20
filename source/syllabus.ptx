@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template based on a syllabus by Mitch Keller -->
+<!-- Modified for compliance with GTPathways syllabus policy at Fort Lewis College.-->
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <article xml:id="syllabus">
+    <!--Enter appropriate course title-->
+    <title>Course Title Syllabus</title>
+    <subtitle>Math XXX </subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+  <!-- Include sections -->
+  <!-- Include land acknowledgement-->
+  <xi:include href="./syllabus/land-acknowledgement.ptx"/>
+
+  <!--include course info-->
+  <xi:include href="./syllabus/syllabus-course-info.ptx" />
+
+  <!--include learning outcomes-->
+  <!--include appropriate file for indicated GTPathways courses-->
+  <!--otherwise include learning outcomes for the course you are teaching (should be on Sharepoint)-->
+  <xi:include href="./syllabus/121syllabus-learning-outcomes.ptx" />
+
+  <!--include grading scheme and assignment types-->
+  <xi:include href="./syllabus/syllabus-grading.ptx" />
+
+  <!--include course expectations-->
+  <xi:include href="./syllabus/syllabus-expectations.ptx" />
+
+  <!--include campus policies-->
+  <xi:include href="./syllabus/syllabus-campus-policies.ptx" />
+
+  <!--include course schedule-->
+  <xi:include href="./syllabus/syllabus-calendar.ptx" />
+
+
+
+  </article>
+</pretext>

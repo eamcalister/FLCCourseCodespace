@@ -1,0 +1,205 @@
+
+  <section xml:id="los"><title>Learning Outcomes</title>
+  <!--This version of the learning outcomes is for Math 121 and is GTPathways compliant.-->
+  <paragraphs xml:id="clos">
+    <title>Course Learning Outcomes</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Recognize when to use algebra and perform algebra correctly. Mathematics is a cumulative subject. You must correctly use the skills acquired in previous math classes.
+          </p>
+        </li>
+        <li>
+          <p>
+            Understand and correctly use notation. Mathematics is a very precise science. You must think clearly and precisely about Calculus and using correct notation will help you do this. Also, while the final answer is certainly important, it is more important to be able to communicate your ideas. You must use correct notation to be able to do this.
+          </p>
+        </li>
+        <li>
+          <p>
+            Demonstrate computational and procedural proficiency in all content objectives listed below.
+          </p>
+        </li>
+        <li>
+          <p>
+            Understand concepts underlying each of the content objectives listed below.
+          </p>
+        </li>
+        <ul>
+          <li>
+            <p>
+              Integration techniques including substitution, integration by parts, trigonometric substitutions, and partial fractions. Ability to determine which method works and correctly carry out the procedure.
+            </p>
+          </li>
+          <li>
+            <p>
+              Improper integral evaluation or determination of convergence. Correctly apply procedure. Understand and correctly present mathematical argument concerning convergence.
+            </p>
+          </li>
+          <li>
+            <p>
+              Applications of definite integrals including: Finding areas and volumes, work, pressure. Problem solving. Understanding of general theme of slicing. Ability to solve both standard and non-standard problems.
+            </p>
+          </li>
+          <li>
+            <p>
+              Sequences and series. Understanding of infinite series. Ability to correctly develop and present a rigorous demonstration of convergence or divergence.
+            </p>
+          </li>
+          <li>
+            <p>
+              Applications of series: Taylor and Fourier series. Ability to calculate coefficients and apply series to applications.
+            </p>
+          </li>
+          <li>
+            <p>
+              Differential equations. Basic understanding of differential equations, solving separable differential equations. Application to contextual problem.
+            </p>
+          </li>
+          <li>
+            <p>
+              Basic procedural mastery of ancillary topics: parametric equations, complex numbers, polar coordinates.
+            </p>
+          </li>
+        </ul>
+      </ul>
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="plos">
+    <title>Program Learning Outcomes</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Students will demonstrate competency in Algebra.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students will demonstrate competency in Geometry.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students will demonstrate competency in Calculus.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students will be able to write a correct mathematical proof (appropriate to the course) using proper terminology and logical structure.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students will produce and deliver effective written and oral presentations of mathematical material and ideas.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students will apply algebraic, geometric, and computational methods in abstract settings.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students will apply algebraic, geometric, and computational methods in applied settings.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="gtpathways">
+    <title>gTPathways</title>
+    <p>This course meets the following gtPathway Student Learning Outcomes: Quantitative Literacy.
+    </p>
+    <p>
+    Competency in quantitative literacy represents a student's ability to use quantifiable information and mathematical analysis to make connections and draw conclusions. Students with strong quantitative literacy skills understand and can create sophisticated arguments supported by quantitative evidence and can clearly communicate those arguments in a variety of formats (using words, tables, graphs, mathematical equations, etc.).
+    </p>
+    <p>
+      <term>Students should be able to:</term>
+    </p>
+    <ol>
+      <li>
+        <term>Interpret Information</term>
+        <p>
+          <ol>
+            <li>
+              <p>
+              Explain information presented in mathematical forms (e.g., equations, graphs, diagrams, tables, words).
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li><term>Represent Information</term>
+        <p>
+          <ol>
+            <li>
+              <p>
+               Convert information into and between various mathematical forms (e.g., equations, graphs, diagrams, tables, words). 
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li><term>Perform Calculations</term>
+      <p>
+          <ol>
+            <li>
+              <p>
+               Solve problems or equations at the appropriate course level. 
+              </p>
+            </li>
+            <li>
+              <p>
+              Use appropriate mathematical notation.
+              </p>
+            </li>
+            <li>
+              <p>
+              Solve a variety of different problem types that involve a multi-step solution and address the validity of the results.
+              </p>
+            </li>
+          </ol>
+      </p>
+      </li>
+      <li><term>Apply and Analyze Information</term>
+        <p>
+          <ol>
+            <li>
+              <p>
+               Make use of graphical objects (such as graphs of equations in two or three variables, histograms, scatterplots of bivariate data, geometrical figures, etc.) to supplement a solution to a typical problem at the appropriate level. 
+              </p>
+            </li>
+            <li>
+              <p>
+              Formulate, organize, and articulate solutions to theoretical and application problems at the appropriate course level.
+              </p>
+            </li>
+            <li>
+              <p>
+              Make judgments based on mathematical analysis appropriate to the course level.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li><term>Communicate Using Mathematical Forms</term>
+        <p>
+          <ol>
+            <li>
+              <p>
+              Express mathematical analysis symbolically, graphically, and in written language that clarifies/justifies/summarizes reasoning (may also include oral communication).
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+    </ol>
+    <p>
+      <!--"Signature" assignment may vary. The default is Final Exam-->
+      The gtPathways Student Learning Outcomes will be assessed through the following signature assignment(s): Final Exam.
+    </p>
+  </paragraphs>
+</section>

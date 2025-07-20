@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext-->
+<!--article-->
+        <worksheet margin="1in" bottom="1.25cm">
+            <title>Math 222 Series Test Worksheet</title>
+
+                <objectives>
+    <ul>
+        <li>
+            <p>
+                Demonstrate a variety of interactive exercises using Calculus II problems (for some reason).
+            </p>
+        </li>
+    </ul>
+
+    </objectives>
+            <introduction>
+                <p>
+                    If given as a pre-class activity or uncollected set of exercises in class (so printing would not be necessary), it might make sense to have interactive exercises that check answers and give some sort of feedback. When a print version of this worksheet is generated you get static versions of these problems.
+                </p>
+            </introduction>
+
+<exercise label="nth-term-divergence">
+  <title>True/False</title>
+  <idx>vector space</idx>
+  <statement correct="no">
+    <p>
+      Suppose <m>\{a_n\}_{n=1}^{\infty}</m> is a sequence such that <m>\lim_{n\to\infty} a_n = 0</m>. Can you conclude that the series <m>\sum_{n=1}^{\infty} a_n</m> converges?
+    </p>
+  </statement>
+  <feedback>
+    <p>
+        Check your notes from last class to find a counterexample.
+    </p>
+  </feedback>
+  <hint>
+    <p>
+        The fact that <m>\lim_{x\to\infty} f(x) = 0</m> does not imply <m>\int_{a}^{\infty}f(x)\,dx</m> necessarily converges. You can apply the integral test to series.
+    </p>
+  </hint>
+</exercise>
+
+<exercise>
+  <statement>
+    <p>
+    Here's a MyOpenMath problem. They are very easy to include, but perhaps not that attractive.
+    </p>
+  </statement>
+  <myopenmath problem="15220"/>
+</exercise>
+
+<exercise>
+<statement>
+    <p>
+        Here is a Webwork problem, which are also easy to include. (Hoping that a new FLC Webwork server, which will more closely resemble what you see here, will be up by Fall.) Using variants of actual assigned Webwork problems can be helpful in building student confidence when they do their assigned homework. Students must click the  "Activate" button for the exercise to be interactive.
+    </p>
+    <p>
+      It is also possible to author problems directly using pg code.
+    </p>
+  </statement>
+    <webwork source="Library/UMN/calculusStewartCCC/s_11_3_15.pg" />
+</exercise>
+
+<exercise>
+  <statement>
+    <p>
+      Here is an example of a Parson's problem for a proof that a series converges. There are many problem types that can be authored
+    </p>
+    <p>
+      The problem is to decide if <m>\sum_{n=1}^{\infty}\frac{(-1)^{n+1}}{n}</m> converges.
+    </p>
+  </statement>
+  <!--Block order is where they appear in your choices, the order you put them in is correct.-->
+  <blocks>
+  <block order="2">
+    <p>
+    This series is of the form <m>\sum_{n=1}^{\infty}(-1)^{n+1}a_n</m>, where <m>a_n = \frac{1}{n}</m>.
+    </p>
+  </block>
+  <block order="1" correct="no">
+  <p>
+    Since <m>\lim_{n\to\infty} \frac{(-1)^{n+1}}{n} = 0</m>, this series converges.
+  </p>
+  </block>
+  <block order="5">
+  <p>
+    <m>0 &lt; \frac{1}{n+1} &lt; \frac{1}{n} </m>, i.e. the sequence of absolute values is positive and decreasing.
+  </p>
+  </block>
+  <block order="4">
+  <p>
+    <m>\lim_{n\to\infty}\frac{1}{n} = 0</m>
+  </p>
+  </block>
+  <block order="3">
+  <p>
+   Thus, this series converges by the Alternating Series Test.
+  </p>
+  </block>
+  </blocks>
+
+
+</exercise>
+
+<subsection xml:id="interactive-exercise-remarks">
+  <title>Interactive Exercise Remarks and Recources</title>
+  <remark>
+    <p>
+      For more documentation on Webwork problems, see (link).
+    </p>
+  </remark>
+  <remark>
+    For a general source for sample code, including exercise (other than Webwork), see <url href="https://pretextbook.org/examples/sample-article/annotated/section-interactive-exercises.html" visual="sample article" />.
+  </remark>
+</subsection>
+
+
+</worksheet>
+<!--/article-->
+<!--/pretext-->

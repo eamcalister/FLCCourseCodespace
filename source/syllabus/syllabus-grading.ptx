@@ -1,0 +1,117 @@
+  <section xml:id="grading">
+    <title>Course Requirements and Grading</title>
+    <!--Edit this example as necessary for your course.-->
+    <p>
+      Final grades will be determined using the following assignment categories (descriptions below):
+    </p>
+    <tabular>
+      <row header="yes">
+        <cell>Assignment Category</cell> <cell>Weight</cell>
+      </row>
+      <row>
+        <cell>Webwork (Online Homework System)</cell> <cell>25%</cell>
+      </row>
+      <row>
+        <cell>Weekly Activities</cell> <cell>10%</cell>
+      </row>
+      <row>
+        <cell>Three Midterm Exams</cell> <cell>15% each</cell>
+      </row>
+      <row>
+        <cell>Cumulative Final Exam</cell> <cell>20%</cell>
+      </row>
+    </tabular>
+    <p>
+      Grading Scale
+    </p>
+    <tabular>
+      <row header="yes">
+        <cell>Letter Grade</cell><cell>Point Range (<m>P</m>)</cell>
+      </row>
+      <row>
+        <cell>A </cell><cell><m>P &gt;93</m></cell>
+      </row>
+      <row>
+        <cell>A-</cell><cell><m>90\leq P &lt; 93</m></cell>
+      </row>
+      <row>
+        <cell>B+</cell><cell><m>87\leq P &lt; 90</m></cell>
+      </row>
+      <row>
+        <cell>B</cell><cell><m>83\leq P &lt; 87</m></cell>
+      </row>
+      <row>
+        <cell>B-</cell><cell><m>80\leq P &lt; 83</m></cell>
+      </row>
+      <row>
+        <cell>C+</cell><cell><m>77\leq P &lt; 80</m></cell>
+      </row>
+      <row>
+        <cell>C</cell><cell><m>83\leq P &lt; 87</m></cell>
+      </row>
+      <row>
+        <cell>C-</cell><cell><m>70\leq P &lt; 73</m></cell>
+      </row>
+      <row>
+        <cell>D+</cell><cell><m>67\leq P &lt; 70</m></cell>
+      </row>
+      <row>
+        <cell>D</cell><cell><m>63\leq P &lt; 67</m></cell>
+      </row>
+      <row>
+        <cell>D-</cell><cell><m>60\leq P &lt; 63</m></cell>
+      </row>
+      <row>
+        <cell>F</cell><cell><m> P &lt; 60</m></cell>
+      </row>
+    </tabular>
+
+  
+  <paragraphs xml:id="webwork">
+    <title>Webwork</title>
+    <p>
+      Webwork is our online homework system. An account has been created for you and a link posted on Canvas. You should check Webwork every class day for new assignments. Their due dates are posted with the assignment. Typically, Webwork assignments will be due at 11:59pm two business days after that section's material has been completed in class. Thus, we have the following:
+    </p>
+    <tabular>
+      <row header="yes">
+        <cell>Day</cell><cell>Day Due</cell>
+      </row>
+      <row>
+        <cell>Monday</cell><cell>Wednesday</cell>
+      </row>
+      <row>
+        <cell>Wednesday</cell><cell>Friday</cell>
+      </row>
+      <row>
+      <cell>Thursday</cell><cell>Monday</cell>
+      </row>
+      <row>
+        <cell>Friday</cell><cell>Tuesday</cell>
+      </row>
+    </tabular>
+    <p>
+      After the due date there will be a reduced credit period of 48 hours for each Webwork assignment in which you can receive 75% credit on all work completed.
+    </p>
+    <p>
+      Because online homework tells you if your answer is right or wrong as soon as you submit it, and for most questions you will be allowed multiple submissions, doing online homework may take you longer than doing written homework. So, give yourself plenty of time by starting your homework ASAP after it is assigned. This will give you time to do the assignment and get help if you need it.
+    </p>
+  </paragraphs>
+  <paragraphs xml:id="weekly-activities">
+    <title>Weekly Activities</title>
+    <p>
+      Each week, typically on Thursdays, class time will be spent on an activity (such as a worksheet) intended to bring together material we have learned in the last week. Group work will be encouraged, but each student must turn in their own assignment.
+    </p>
+  </paragraphs>
+  <paragraphs xml:id="midterm-exams">
+    <title>Midterm Exams</title>
+    <p>
+      There will be three midterm exams given in class on 9/19, 10/17, and 11/4. The class day before exams will be reserved for review. 
+    </p>
+  </paragraphs>
+  <paragraphs xml:id="final">
+    <title>Cumulative Final Exam</title>
+    <p>
+      Your cumulative final exam will be Wednesday, December 10, from 7:30-9:30am. The room will be announced prior to the final exam.
+    </p>
+  </paragraphs>
+</section>

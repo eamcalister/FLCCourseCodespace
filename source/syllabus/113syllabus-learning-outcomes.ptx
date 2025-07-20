@@ -1,0 +1,163 @@
+
+  <section xml:id="los"><title>Learning Outcomes</title>
+  <!--This version of the learning outcomes is for Math 121 and is GTPathways compliant.-->
+  <paragraphs xml:id="clos">
+    <title>Course Learning Outcomes</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Students demonstrate a conceptual understanding of the meaning of algebraic forms, and
+            recognize differences between algebraic expressions and equations.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students demonstrate proficiency in evaluating, interpreting, and manipulating algebraic expressions and equations.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students develop competency in understanding functions. This includes definition and interpretation of various presentations of functions (algebraic, graphical, verbal, tabular) as well as understanding domain and range, compositions and decompositions, and inverses.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students master skills of recognizing, manipulating, representing and solving equations as they apply to the linear, quadratic, and power families of functions.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students develop proficiency in the skills of recognizing, manipulating, representing, and solving equations as they apply to the exponential and logarithmic families of functions.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students recognize when a certain type of function (linear, quadratic, power, exponential or logarithmic) is or is not the appropriate choice to mathematically model a physical application, and apply the selected model.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="plos">
+    <title>Program Learning Outcomes</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Students will demonstrate competency in Algebra.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students will produce and deliver effective written and oral presentations of mathematical material and ideas.
+          </p>
+        </li>
+        <li>
+          <p>
+            Students will apply algebraic, geometric, and computational methods in abstract settings. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Students will apply algebraic, geometric, and computational methods in applied settings.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="gtpathways">
+    <title>gTPathways</title>
+    <p>This course meets the following gtPathway Student Learning Outcomes: Quantitative Literacy.
+    </p>
+    <p>
+    Competency in quantitative literacy represents a student's ability to use quantifiable information and mathematical analysis to make connections and draw conclusions. Students with strong quantitative literacy skills understand and can create sophisticated arguments supported by quantitative evidence and can clearly communicate those arguments in a variety of formats (using words, tables, graphs, mathematical equations, etc.).
+    </p>
+    <p>
+      <term>Students should be able to:</term>
+    </p>
+    <ol>
+      <li>
+        <term>Interpret Information</term>
+        <p>
+          <ol>
+            <li>
+              <p>
+              Explain information presented in mathematical forms (e.g., equations, graphs, diagrams, tables, words).
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li><term>Represent Information</term>
+        <p>
+          <ol>
+            <li>
+              <p>
+               Convert information into and between various mathematical forms (e.g., equations, graphs, diagrams, tables, words). 
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li><term>Perform Calculations</term>
+      <p>
+          <ol>
+            <li>
+              <p>
+               Solve problems or equations at the appropriate course level. 
+              </p>
+            </li>
+            <li>
+              <p>
+              Use appropriate mathematical notation.
+              </p>
+            </li>
+            <li>
+              <p>
+              Solve a variety of different problem types that involve a multi-step solution and address the validity of the results.
+              </p>
+            </li>
+          </ol>
+      </p>
+      </li>
+      <li><term>Apply and Analyze Information</term>
+        <p>
+          <ol>
+            <li>
+              <p>
+               Make use of graphical objects (such as graphs of equations in two or three variables, histograms, scatterplots of bivariate data, geometrical figures, etc.) to supplement a solution to a typical problem at the appropriate level. 
+              </p>
+            </li>
+            <li>
+              <p>
+              Formulate, organize, and articulate solutions to theoretical and application problems at the appropriate course level.
+              </p>
+            </li>
+            <li>
+              <p>
+              Make judgments based on mathematical analysis appropriate to the course level.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li><term>Communicate Using Mathematical Forms</term>
+        <p>
+          <ol>
+            <li>
+              <p>
+              Express mathematical analysis symbolically, graphically, and in written language that clarifies/justifies/summarizes reasoning (may also include oral communication).
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+    </ol>
+    <p>
+      The gtPathways Student Learning Outcomes will be assessed through the following signature assignment(s): Final Exam.
+    </p>
+  </paragraphs>
+</section>
