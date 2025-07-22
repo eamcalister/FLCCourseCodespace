@@ -5,18 +5,52 @@
     <section xml:id="Git">
         <title>Necessary Github</title>
         <p>
-            This week we covered the following topics:
+            In this section we will cover how to generate all the content within this course from a Github codespace. This way you will not need to do any software installation on your own computer. If you are interested in local installation, please see <url href="https://pretextbook.org/doc/guide/html/tutorial-install.html" visual="local PreTeXt installation" />. Your friendly department PreTeXt person can help with local installs, if desired. 
         </p>
 
         <subsection xml:id="Codespaces">
             <title>Working in a Codespace</title>
-            
+            <p>
+                Your first step is to creat a Github account for yourself at Github.com. Once there, you will be able to create Github repositories for any PreTeXt courses you want to make. A <term>repository</term> is a project that contains the source for you PreTeXt course and all of the edit history. If your repository is public, it will also contain the gh-pages deployment of your PreTeXt course.  
+            </p>
+            <p>
+                A <term>codespace</term> is a virtual computer on which you can build PreTeXt projects. To get started, after logging into Github, do the following:
+                <ol>
+                    <li>
+                        <p>
+                            Go to <url href="https://github.com/eamcalister/FLCCourseCodespace" visual="https://github.com/eamcalister/FLCCourseCodespace" />. This is a template repository for a math course at FLC.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Click the green "use this template" button nd select "Create a new repository". On the next page, give your project a name, select public or private (this can be changed later), and click the "Create repository from template" button. Now you have a version of the template repository in your account. Open it.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            To start work on your project, go to the green button at the top of your repository's page, which will say <c>&lt; &gt;  Code</c>. Click that button and under "Codespaces" click "Create codespace on main". This will open the vitual machine on which you can compile the project. (The codespace may take some time to load, so please be patient.) 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Once the codespace is loaded, as proof that you can do something, type the command <c>pretext build</c> in the terminal. This will build the PreTeXt project. When that is complete, run the command <c>pretext view</c>. This will open local web server and display the entire project in a browser. (The components of the course are discussed in <xref ref="build-types"/> and web/Canvas deployments are discussed in <xref ref="deployments"/>).
+                        </p>
+                    </li>
+                </ol>
+                <alert>Note:</alert> The codespace you create from this template has instructions to have PreTeXt and its necessary components installed as part of the template. If you create a codespace on an empty repository, then it won't have that. If you would like to build other types of PreTeXt projects (e.g. books), a more basic PreTeXt codespace repository is available at <url href="https://github.com/PreTeXtBook/pretext-codespace" />.
+            </p>
+            <p>
+                <alert>Note on saving your changes:</alert> As you edit, you will save changes in the codespace. These changes are not saved in your repository yet. You must "commit" and "sync" your changes. This is done using the source control menu in the codespace (it is the third item from the top on the left-hand side of the screen). <alert>If you delete your codespace without committing and syncing, you lose all the work you did in that codespace!</alert> 
+            </p>
         </subsection>
+
         <subsection xml:id="deployments">
             <title>Deploying</title>
             <subsubsection xml:id="web-deployment">
                 <title>Web Deployment</title>
-                
+                <p>
+                    
+                </p>
             </subsubsection>
             <subsubsection xml:id="canvas-only">
                 <title>Canvas Only (SCORM)</title>
