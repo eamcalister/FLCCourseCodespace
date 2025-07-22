@@ -8,13 +8,13 @@
   <article xml:id="syllabus">
     <!--Enter appropriate course title-->
     <title>Course Title Syllabus</title>
-    <subtitle>Math XXX </subtitle>
+    <subtitle>Math XXX - Spring/Summer/Fall 20XX</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-  <!-- Include sections -->
-  <!-- Include land acknowledgement-->
+
+  <!-- Include land acknowledgement if desired (optional)-->
   <xi:include href="./syllabus/land-acknowledgement.ptx"/>
 
   <!--include course info-->

@@ -67,7 +67,10 @@
   <paragraphs xml:id="course-materials">
     <title>Course Materials</title>
     <p>
-      Required Text: Enter the required textbook here.
+      Required Text: Enter the required textbook here, include ISBN.
+    </p>
+    <p>
+      Other required software, suggested readings, course packs, et. should be included here.
     </p>
   </paragraphs>
 

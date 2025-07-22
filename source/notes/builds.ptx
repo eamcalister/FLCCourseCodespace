@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--pretext-->
+    <!--article xml:id="notes"-->
+        <section xml:id="build-types">
+        <title>Building the Components of Your Course</title>
+        <p>
+            This covers the different ways to build each component of your PreTeXt course. The instructions here are minimal, and meant to give you an overview. Details will be best understood by going into the source for this course and seeing how things work.
+        </p>
+        <subsection xml:id="syllabus-structure">
+            <title>Course Syllabus</title>
+        
+        </subsection>
+        <subsection xml:id="activities-builds">
+          <title>Activities</title>
+            
+        </subsection>
+        <subsection xml:id="notes-builds">
+            <title>Course Notes</title>
+            
+        </subsection>
+
+        </section>
+    <!--/article-->
+<!--/pretext-->

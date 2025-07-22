@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--pretext-->
+    <!--article xml:id="starting"-->
+    <section xml:id="Git">
+        <title>Necessary Github</title>
+        <p>
+            This week we covered the following topics:
+        </p>
+
+        <subsection xml:id="Codespaces">
+            <title>Working in a Codespace</title>
+            
+        </subsection>
+        <subsection xml:id="deployments">
+            <title>Deploying</title>
+            <subsubsection xml:id="web-deployment">
+                <title>Web Deployment</title>
+                
+            </subsubsection>
+            <subsubsection xml:id="canvas-only">
+                <title>Canvas Only (SCORM)</title>
+                
+            </subsubsection>
+        </subsection>
+    </section>
+    <!--/article-->
+<!--/pretext-->
