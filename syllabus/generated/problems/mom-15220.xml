@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="15220">
+<statement>
+<p>
+The series <m>\displaystyle{\sum_{{{k}={1}}}^{\infty}}{3}{\left(-{1}\right)}^{{k}}{1.6}^{{-{1.9}{/}{k}}}</m>  convergesdiverges.
+</p>
+</statement>
+<solution>
+<p><ul><li>B: diverges</li></ul></p>
+</solution>
+</myopenmath>
