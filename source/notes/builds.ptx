@@ -9,8 +9,24 @@
         </p>
         <subsection xml:id="syllabus-structure">
             <title>Course Syllabus</title>
+        <p>
+            The main syllabus file is <c>syllabus.ptx</c>. This file contains the basic structure of the syllabus with various "include" statements for components of syllabus that complies with FLC's syllabus policy (see <url href="https://www.fortlewis.edu/LinkClick.aspx?fileticket=KjN1iIQ1iu8%3d&amp;portalid=37" visual="FLC Syllabus Policy" />). The main components are as follows: land acknowledgement, course info, learning outcomes (GTPathways outcomes for Math 113, 121, 221, and 222 are included in this template), grading scheme, course explectations, campus policies, and tentative schedule. Each of these components is a <c>&lt; section &gt;</c> (un-numbered according to the publication file) uses the <c>&lt; paragraphs &gt;</c> division, which is like a subsection but with a smaller font for the heading.
+        </p>
+        <p>
+            Build types are the following:
+            <ul>
+                <li>
+                    <p>
+                        <term>Web:</term> To build the html version of the syllabus, use <c>pretext build syllabus-web</c>. To view this, use <c>pretext view syllabus-web</c>. 
+                    </p>
+                </li>
+            </ul>
+        </p>
+        
+        
         
         </subsection>
+
         <subsection xml:id="activities-builds">
           <title>Activities</title>
             

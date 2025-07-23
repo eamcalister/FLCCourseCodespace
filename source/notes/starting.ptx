@@ -67,7 +67,7 @@
                         </li>
                         <li>
                             <p>
-                                This will create a .zip file known that you can upload to Canvas as a SCORM. To download this file to your computer, you will need to open the codespace in the desktop VScode or have a local install of PreTeXt.
+                                This will create a .zip file known that you can upload to Canvas as a SCORM. To download this file to your computer, you will need to open the codespace in the desktop version of VScode, at which point you can download the file.
                             </p>
                         </li>
                     </ol>
