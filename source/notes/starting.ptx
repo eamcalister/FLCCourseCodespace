@@ -33,7 +33,7 @@
                     </li>
                     <li>
                         <p>
-                            Once the codespace is loaded, as proof that you can do something, type the command <c>pretext build</c> in the terminal. This will build the PreTeXt project. When that is complete, run the command <c>pretext view</c>. This will open local web server and display the entire project in a browser. (The components of the course are discussed in <xref ref="build-types"/> and web/Canvas deployments are discussed in <xref ref="deployments"/>).
+                            Once the codespace is loaded, as proof that you can do something, type the command <c>pretext build --deploys</c> in the terminal. This will build the entire PreTeXt project. When that is complete, run the command <c>pretext deploy --stage-only</c> followed by <c>pretext view -d</c>. This will open local web server and display the entire project in a browser. (The components of the course are discussed in <xref ref="build-types"/> and web/Canvas deployments are discussed in <xref ref="deployments"/>).
                         </p>
                     </li>
                 </ol>
@@ -49,12 +49,30 @@
             <subsubsection xml:id="web-deployment">
                 <title>Web Deployment</title>
                 <p>
-                    
+                    If your course is in a good place and it has been built, committed, and synced, then you can deploy it to a public Github pages site. To do this, run the command <c>pretext deploy</c>. From here you can link to it or use the <c>&lt; &gt;</c> at the top of each page to get an embed link. The embed link allows you to embed the published PreTeXt page in a Canvas page/assignment using the html editor in Canvas.
+                </p>
+                <p>
+                    Note that you must either have your repository visibility set to public or have a Github educator account (you can get this, ask Vera how) to publish your project to the web via Github pages.
                 </p>
             </subsubsection>
             <subsubsection xml:id="canvas-only">
                 <title>Canvas Only (SCORM)</title>
-                
+                <p>
+                    If you prefer to not have your Pretext project (or part of it) published to the web (e.g. it is an exam), then you can build an individual document and compress it as a SCORM. As an example, suppose we want to build the syllabus as a SCORM and put it on Canvas. To do this, we proceed as follows:
+                    <ol>
+                        <li>
+                            <p>
+                                Run the command <c>pretext build syllabus-canvas</c>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                This will create a .zip file known that you can upload to Canvas as a SCORM. To download this file to your computer, you will need to open the codespace in the desktop VScode or have a local install of PreTeXt.
+                            </p>
+                        </li>
+                    </ol>
+                    Producing other documents in SCORM or pdf format (for printing) will be discussed in other sections.
+                </p>
             </subsubsection>
         </subsection>
     </section>
