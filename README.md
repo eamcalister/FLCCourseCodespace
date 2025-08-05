@@ -16,12 +16,6 @@ To start work on your project, go to the green button at the top of *your* repos
 2. Click on the tab that says "Codespaces."
 3. Click "Create codespace on main."
 
-This may take a minute or two (just the first time; later this will be faster) and then open a browser version of VS Code with everything set up to start working.  The first thing you should do is create a new PreTeXT project:
+This may take a minute or two (just the first time; later this will be faster) and then open a browser version of VS Code with everything set up to start working. 
 
-1. Open the command palette by hitting `Ctrl+Shift+P` (or `F1`) and start typing "pretext new".  You will see a command titled "PreTeXt: New Project".
-2. Hit `Enter` and select what sort of project you would like to create.  
-3. Select the current suggested folder for the location of your project.
-
-The window should reload and you will have your project there.  This readme will be gone, but you will get a new one with some new hints.
-
-Next time you want to work on your book, return to your newly created repository, go to the green `<> Code` button, and select the codespace you previously created.  If you don't see that codespace (perhaps you deleted it to save space), you can always create a new codespace.
+From here, you will want to follow instructions contained in the template/FLC Pretext Canvas page.
