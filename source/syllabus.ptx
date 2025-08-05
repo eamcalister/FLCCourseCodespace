@@ -34,6 +34,9 @@
   <!--include campus policies-->
   <xi:include href="./syllabus/syllabus-campus-policies.ptx" />
 
+  <!--inlcude basic needs etc.-->
+  <xi:include href="./syllabus/syllabus-student-resources.ptx" />
+
   <!--include course schedule-->
   <xi:include href="./syllabus/syllabus-calendar.ptx" />
 
