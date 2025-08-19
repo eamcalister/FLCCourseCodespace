@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-representations>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-1" ww-id="webwork-1">
+    <static seed="1" source="Library/UMN/calculusStewartCCC/s_11_3_15.pg">
+      <statement><p>Compute the value of the following improper integral.  If it is divergent, type "Diverges" or "D". 
+<me>\int_1^{\infty} \frac{1}{x^2 + 16}\,dx</me>
+Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Using the improper integral from above and the Integral Test, determine whether the following series <em> converges </em> or <em> diverges. </em>  Answer "Converges" or "Diverges."</p>
+<p><me>\sum_{n=1}^{\infty} \frac{1}{n^2 + 16}</me>
+Answer: <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>Converges</p>
+</li><li>
+<p>Diverges</p>
+</li></ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{1}{4}\mathopen{}\left(\frac{\pi }{2}-\tan^{-1}\mathopen{}\left(\frac{1}{4}\right)\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Converges}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_11_3_15.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_11_3_15.pg"/>
+  </webwork-reps>
+</webwork-representations>
